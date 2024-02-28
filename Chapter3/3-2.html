@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>成績輸入表單</title>
+</head>
+
+<body>
+    <form action="3-2.php" method="post">
+        <p>請輸入國文成績:<input type="number" oninput="if(value>100)value=100;if(value<0)value=0" size="3" name="mandarin"></p>
+    
+        <p>請輸入英文成績:<input type="number" oninput="if(value>100)value=100;if(value<0)value=0" size="3" name="english"></p>
+
+        <p>請輸入數學成績:<input type="number" oninput="if(value>100)value=100;if(value<0)value=0" size="3" name="math"></p>
+
+        <p><input type="submit" value="確定輸入"></p>
+    </form>
+
+</body>
+
+</html>
